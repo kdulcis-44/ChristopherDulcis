@@ -1,0 +1,19 @@
+title: "christopherdulcis"
+description: "Blog"
+url: "https://christopherdulcis.github.io"
+baseurl: ""
+
+author: christopherdulcis
+
+permalink: /:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
